@@ -4,7 +4,6 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://www.tampermonkey.net/index.php?version=4.11&ext=dhdg&updated=true
 // @grant        none
 // @include     https://www.dkb.de/*
 // ==/UserScript==

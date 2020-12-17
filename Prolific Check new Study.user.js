@@ -28,7 +28,6 @@ function prolificcallSite(){
 //     console.log(classlength);
 
 var innertext = document.getElementsByClassName('detail-wrap')[0];
-    var loremipsum = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.';
 if(!innertext) {
            console.log("There is no new study");
            return;
@@ -36,7 +35,7 @@ if(!innertext) {
     for(var n=0; n < 3 ; n++) {
         var text = document.getElementsByClassName('detail-wrap')[n].innerText;
        var notification = new Notification('NEW STUDY' ,{body: text});
-            calltoServer(text);
+  //          calltoServer(text);
        notification.onclick = function(event) {
            event.preventDefault();
            window.open(url, '_blank');
